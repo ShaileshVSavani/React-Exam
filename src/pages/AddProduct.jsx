@@ -28,14 +28,52 @@ const AddProduct = () => {
   };
 
   return (
-    <form onSubmit={handleSubmit}>
-      {/* Add your input fields for title, description, price, and image URL */}
-      <input type="text" name="title" value={product.title} onChange={handleInputChange} placeholder="Title" required />
-      <input type="text" name="description" value={product.description} onChange={handleInputChange} placeholder="Description" required />
-      <input type="number" name="price" value={product.price} onChange={handleInputChange} placeholder="Price" required />
-      <input type="text" name="img" value={product.img} onChange={handleInputChange} placeholder="Image URL" required />
-      <button type="submit">Add Product</button>
-    </form>
+    <form onSubmit={handleSubmit} className="max-w-xl mx-auto p-4 bg-white rounded-lg shadow-md">
+    <h2 className="text-2xl font-bold text-center mb-4">Add Product</h2>
+    <input 
+        type="text" 
+        name="title" 
+        value={product.title} 
+        onChange={handleInputChange} 
+        placeholder="Title" 
+        required 
+        className="border border-gray-300 rounded-md p-2 mb-4 w-full focus:outline-none focus:ring-2 focus:ring-blue-500"
+    />
+    <input 
+        type="text" 
+        name="description" 
+        value={product.description} 
+        onChange={handleInputChange} 
+        placeholder="Description" 
+        required 
+        className="border border-gray-300 rounded-md p-2 mb-4 w-full focus:outline-none focus:ring-2 focus:ring-blue-500"
+    />
+    <input 
+        type="number" 
+        name="price" 
+        value={product.price} 
+        onChange={handleInputChange} 
+        placeholder="Price" 
+        required 
+        className="border border-gray-300 rounded-md p-2 mb-4 w-full focus:outline-none focus:ring-2 focus:ring-blue-500"
+    />
+    <input 
+        type="text" 
+        name="img" 
+        value={product.img} 
+        onChange={handleInputChange} 
+        placeholder="Image URL" 
+        required 
+        className="border border-gray-300 rounded-md p-2 mb-4 w-full focus:outline-none focus:ring-2 focus:ring-blue-500"
+    />
+    <button 
+        type="submit" 
+        className="bg-blue-500 text-white rounded-md px-4 py-2 transition duration-200 hover:bg-blue-600 focus:outline-none focus:ring-2 focus:ring-blue-400 focus:ring-opacity-50"
+    >
+        Add Product
+    </button>
+</form>
+
   );
 };
 
