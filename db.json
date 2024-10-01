@@ -1,0 +1,36 @@
+{
+  "products": [
+    {
+      "id": "ba8d",
+      "title": "asd",
+      "description": "asdfghj",
+      "price": "139.00",
+      "img": "https://m.media-amazon.com/images/I/61Mm0fKH-IL._SX679_.jpg",
+      "userId": "NYmGXXKR3sViAdDUtzf01LiaiUB2"
+    },
+    {
+      "id": "b8c0",
+      "title": "cgg",
+      "description": "dfgthth",
+      "price": "129.00",
+      "img": "https://m.media-amazon.com/images/I/31IhYwtLhPL._SX300_SY300_QL70_FMwebp_.jpg",
+      "userId": "NYmGXXKR3sViAdDUtzf01LiaiUB2"
+    },
+    {
+      "id": "3a0d",
+      "title": "abc",
+      "description": "abc",
+      "price": "1",
+      "img": "https://cdn1.jewelxy.com/live/img/business_product/360x360/IE1OiqJI8J_20240215140123.jpg",
+      "userId": "t4tVWBfwGCO97m05nf7mFrXrMC33"
+    },
+    {
+      "id": "8bb3",
+      "title": "asd",
+      "description": "asdfghj",
+      "price": "123",
+      "img": "https://images.pexels.com/photos/674010/pexels-photo-674010.jpeg?cs=srgb&dl=pexels-anjana-c-674010.jpg&fm=jpg",
+      "userId": "aksqcMJB0kWuSnJaExcV1XNxkIf1"
+    }
+  ]
+}
