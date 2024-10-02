@@ -3,7 +3,10 @@ import { createAsyncThunk, createSlice } from "@reduxjs/toolkit";
 import axios from "axios";
 
 
+// const baseUrl = "http://localhost:3000";
 // const baseUrl = "http://localhost:3001";
+// const baseUrl = "https://fakestoreapi.com";
+// const baseUrl = "https://dummyjson.com";
 const baseUrl = "https://react-exam-json-server.onrender.com";
 
 // Fetch all products
