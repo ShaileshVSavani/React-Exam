@@ -43,6 +43,9 @@ const NavBar = () => {
           <Link to="/" className="text-white hover:bg-gray-700 px-3 py-2 rounded transition duration-300">
             Home
           </Link>
+          <Link to="/user" className="text-white hover:bg-gray-700 px-3 py-2 rounded transition duration-300">
+            User Product
+          </Link>
           <Link to="/addProducts" className="text-white hover:bg-gray-700 px-3 py-2 rounded transition duration-300">
             Add Products
           </Link>
@@ -71,6 +74,9 @@ const NavBar = () => {
         <Link to="/" className="block text-white hover:bg-gray-700 px-3 py-2 rounded transition duration-300">
           Home
         </Link>
+        <Link to="/user" className="text-white hover:bg-gray-700 px-3 py-2 rounded transition duration-300">
+            User Product
+          </Link>
         <Link to="/addProducts" className="block text-white hover:bg-gray-700 px-3 py-2 rounded transition duration-300">
           Add Products
         </Link>
