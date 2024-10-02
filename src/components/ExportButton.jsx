@@ -36,7 +36,9 @@ const ExportButton = () => {
     }
   };
 
-  return <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline w-full" onClick={handleExport}>Export to Excel</button>;
+    return <div className='text-center mt-5'>
+      <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline w-1/2 " onClick={handleExport}>Export to Excel</button>
+  </div>;
 };
 
 export default ExportButton;
