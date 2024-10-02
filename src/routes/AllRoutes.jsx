@@ -6,6 +6,7 @@ import Home from "../pages/Home";
 import AddProduct from "../pages/AddProduct";
 import PrivateRoute from "./PrivateRoute";
 import UserProducts from "../pages/UserProducts";
+import DisplayData from "../components/DisplayData";
 
 
 const AllRoutes = () => {
@@ -35,6 +36,14 @@ const AllRoutes = () => {
           element={
             <PrivateRoute>
               <UserProducts />
+            </PrivateRoute>
+          }
+        />
+          <Route
+          path="/dataDisplay"
+          element={
+            <PrivateRoute>
+              <DisplayData />
             </PrivateRoute>
           }
         />

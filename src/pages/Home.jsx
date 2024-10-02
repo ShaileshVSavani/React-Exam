@@ -56,6 +56,7 @@ import {
 } from "../redux/ProductSlice";
 import { getAuth } from "firebase/auth";
 import ExportButton from "../components/ExportButton";
+import ImportExcel from "../components/ImportExcel";
 
 const Home = () => {
   const dispatch = useDispatch();
@@ -175,7 +176,7 @@ const Home = () => {
           No products added by you.
         </p>
       )}
-       <ExportButton/>
+       <ExportButton/><ImportExcel/>
     </div>
    
   );
